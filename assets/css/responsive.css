@@ -1,0 +1,773 @@
+/* ==================================================================
+
+*   eShop Theme Media Queries
+
+TOC : 
+
+1. screenwidth greater than 1400px (Large Screens)
+2. screenwidth greater than 1024px (Medium Screen/Large Tablets)
+3. screenwidth less than 1024px (Medium Screen/Large Tablets)
+4. screenwidth less than 992px (Tablets)
+4. screenwidth less than 960px (Mobile wide/Smaller Tablets)
+5. screenwidth less than 768px (Mobile wide/Smaller Tablets)
+6. screenwidth greater than 480px (Medium Screen Mobile)
+7. screenwidth less than 480px (Small Screen Mobile)
+
+
+/* ================================================================== */
+
+
+
+/* Screens Resolution : 1600px+
+-------------------------------------------------------------------------- */
+@media only screen and (min-width: 1601px) {
+
+  
+}
+/* Screens Resolution : 1400px+
+-------------------------------------------------------------------------- */
+@media only screen and (min-width: 1401px) {
+
+
+}
+
+/* Screens Resolution : Below 1366px+
+-------------------------------------------------------------------------- */
+
+@media only screen and (max-width: 1365px) {
+  
+
+}
+
+
+/* Screens Resolution : 1024px+
+-------------------------------------------------------------------------- */
+
+@media only screen and (min-width: 1024px) {
+
+
+}
+
+/* min-width: 1024px end*/
+
+
+/* screenwidth less than 1024px
+--------------------------------------------------------------------- */
+
+@media only screen and (max-width: 1024px) {
+  .header-top-bar {
+    height: 70px;
+    padding-bottom: 10px;
+    text-align: center!important;
+  }
+
+  .top-left {
+    float: none;
+    text-align: center;
+  }
+
+  .top-right {
+    float: none;
+  }
+
+  /* --- Middle Bar --- */
+  .header-middle-bar {
+    height: 90px;
+  }
+
+  .form-search {
+    margin-top: 0!important;
+  }
+
+  .stylish-input-group .form-control {
+    border-bottom: 1px solid #cccccc!important;
+  }
+
+  .stylish-input-group .input-group-addon {
+    border-bottom: 1px solid #cccccc!important;
+  }
+
+  .wish-list {
+    float: none;
+    text-align: center!important;
+    border: 0!important;
+  }
+
+  .wish-list ul li {
+    display: inline;
+    float: none!important;
+    text-align: center;
+    padding-top: 10px!important;
+    height: 25px;
+  }
+
+  /* Carousel */
+  .promo-side-img {
+    padding-top: 15px!important;
+  }
+
+  /* Slider-Promo */
+  .slider-promo-1, .slider-promo-2, .slider-promo-3  {
+    border: none!important;
+  }
+
+  /* Featured Product */
+  .featured-product {
+    padding-bottom: 60px;
+  }
+
+  /* Newsletter */
+  .sign-up-to-newsletter span {
+    top: -22px;
+  }
+
+  .control {
+    float: none;
+    width: 200px;
+    padding-bottom: 10px!important;
+  }
+
+  .sign-up-to-newsletter {
+    border-right: 0!important;
+  }
+
+  .payment-accept {
+    padding-top: 50px;
+    padding-left: 0!important;
+    margin-left: 12px;
+  }
+
+}
+
+
+/* screenwidth less than 992px (Tablets)
+--------------------------------------------------------------------- */
+@media only screen and (max-width: 991px) {
+  .header-top-bar {
+    height: 70px;
+    padding-bottom: 10px;
+    text-align: center!important;
+  }
+
+  .top-left {
+    float: none;
+    text-align: center;
+  }
+
+  .top-right {
+    float: none;
+  }
+
+  /* --- Middle Bar --- */
+  .header-middle-bar {
+    height: 90px;
+  }
+
+  .form-search {
+    margin-top: 0!important;
+  }
+
+  .stylish-input-group .form-control {
+    border-bottom: 1px solid #cccccc!important;
+  }
+
+  .stylish-input-group .input-group-addon {
+    border-bottom: 1px solid #cccccc!important;
+  }
+
+  .wish-list {
+    float: none;
+    text-align: center!important;
+    border: 0!important;
+  }
+
+  .wish-list ul li {
+    display: inline;
+    float: none!important;
+    text-align: center;
+    padding-top: 10px!important;
+    height: 25px;
+  }
+
+  /* Carousel */
+  .promo-side-img {
+    padding-top: 15px!important;
+  }
+
+  /* Slider-Promo */
+  .slider-promo-1, .slider-promo-2, .slider-promo-3  {
+    border: none!important;
+  }
+
+  /* Featured Product */
+  .featured-product {
+    padding-bottom: 60px;
+  }
+
+  /* Newsletter */
+  .sign-up-to-newsletter span {
+    top: -22px;
+  }
+
+  .control {
+    float: none;
+    width: 200px;
+    padding-bottom: 10px!important;
+  }
+
+  .sign-up-to-newsletter {
+    border-right: 0!important;
+  }
+
+  .payment-accept {
+    padding-top: 50px;
+    padding-left: 0!important;
+    margin-left: 12px;
+  }
+
+}
+
+/* screenwidth less than 960px (Mobile wide/Smaller Tablets)
+--------------------------------------------------------------------- */
+@media only screen and (max-width: 900px) {
+  .header-top-bar {
+    height: 70px;
+    padding-bottom: 10px;
+    text-align: center!important;
+  }
+
+  .top-left {
+    float: none;
+    text-align: center;
+  }
+
+  .top-right {
+    float: none;
+  }
+
+  /* --- Middle Bar --- */
+  .header-middle-bar {
+    height: 90px;
+  }
+
+  .form-search {
+    margin-top: 0!important;
+  }
+
+  .stylish-input-group .form-control {
+    border-bottom: 1px solid #cccccc!important;
+  }
+
+  .stylish-input-group .input-group-addon {
+    border-bottom: 1px solid #cccccc!important;
+  }
+
+  .wish-list {
+    float: none;
+    text-align: center!important;
+    border: 0!important;
+  }
+
+  .wish-list ul li {
+    display: inline;
+    float: none!important;
+    text-align: center;
+    padding-top: 10px!important;
+    height: 25px;
+  }
+
+  /* Carousel */
+  .promo-side-img {
+    padding-top: 15px!important;
+  }
+
+  /* Slider-Promo */
+  .slider-promo-1, .slider-promo-2, .slider-promo-3  {
+    border: none!important;
+  }
+
+  /* Featured Product */
+  .featured-product {
+    padding-bottom: 60px;
+  }
+
+  /* Newsletter */
+  .sign-up-to-newsletter span {
+    top: -22px;
+  }
+
+  .control {
+    float: none;
+    width: 200px;
+    padding-bottom: 10px!important;
+  }
+
+  .sign-up-to-newsletter {
+    border-right: 0!important;
+  }
+
+  .payment-accept {
+    padding-top: 50px;
+    padding-left: 0!important;
+    margin-left: 12px;
+  }
+
+}
+
+
+/* Mobile wide/Smaller Tablets
+---------------------------------------------------------------------- */
+
+@media only screen and (max-width: 768px) {
+  .header-top-bar {
+    height: 70px;
+    padding-bottom: 10px;
+    text-align: center!important;
+  }
+
+  .top-left {
+    float: none;
+    text-align: center;
+  }
+
+  .top-right {
+    float: none;
+  }
+
+  /* --- Middle Bar --- */
+  .header-middle-bar {
+    height: 90px;
+  }
+
+  .form-search {
+    margin-top: 0!important;
+  }
+
+  .stylish-input-group .form-control {
+    border-bottom: 1px solid #cccccc!important;
+  }
+
+  .stylish-input-group .input-group-addon {
+    border-bottom: 1px solid #cccccc!important;
+  }
+
+  .wish-list {
+    float: none;
+    text-align: center!important;
+    border: 0!important;
+  }
+
+  .wish-list ul li {
+    display: inline;
+    float: none!important;
+    text-align: center;
+    padding-top: 10px!important;
+    height: 25px;
+  }
+
+  /* Carousel */
+  .promo-side-img {
+    padding-top: 15px!important;
+  }
+
+  /* Slider-Promo */
+  .slider-promo-1, .slider-promo-2, .slider-promo-3  {
+    border: none!important;
+  }
+
+  /* Featured Product */
+  .featured-product {
+    padding-bottom: 60px;
+  }
+
+  /* Newsletter */
+  .sign-up-to-newsletter span {
+    top: -22px;
+  }
+
+  .control {
+    float: none;
+    width: 200px;
+    padding-bottom: 10px!important;
+  }
+
+  .sign-up-to-newsletter {
+    border-right: 0!important;
+  }
+
+  .payment-accept {
+    padding-top: 50px;
+    padding-left: 0!important;
+    margin-left: 12px;
+  }
+
+}
+
+/* Mobile wide/Smaller Tablets
+---------------------------------------------------------------------- */
+
+@media only screen and (max-width: 767px) {
+  .header-top-bar {
+    height: 70px;
+    padding-bottom: 10px;
+    text-align: center!important;
+  }
+
+  .top-left {
+    float: none;
+    text-align: center;
+  }
+
+  .top-right {
+    float: none;
+  }
+
+  /* --- Middle Bar --- */
+  .header-middle-bar {
+    height: 90px;
+  }
+
+  .form-search {
+    margin-top: 0!important;
+  }
+
+  .stylish-input-group .form-control {
+    border-bottom: 1px solid #cccccc!important;
+  }
+
+  .stylish-input-group .input-group-addon {
+    border-bottom: 1px solid #cccccc!important;
+  }
+
+  .wish-list {
+    float: none;
+    text-align: center!important;
+    border: 0!important;
+  }
+
+  .wish-list ul li {
+    display: inline;
+    float: none!important;
+    text-align: center;
+    padding-top: 10px!important;
+    height: 25px;
+  }
+
+  /* Carousel */
+  .promo-side-img {
+    padding-top: 15px!important;
+  }
+
+  /* Slider-Promo */
+  .slider-promo-1, .slider-promo-2, .slider-promo-3  {
+    border: none!important;
+  }
+
+  /* Featured Product */
+  .featured-product {
+    padding-bottom: 60px;
+  }
+
+  /* Newsletter */
+  .sign-up-to-newsletter span {
+    top: -22px;
+  }
+
+  .control {
+    float: none;
+    width: 200px;
+    padding-bottom: 10px!important;
+  }
+
+  .sign-up-to-newsletter {
+    border-right: 0!important;
+  }
+
+  .payment-accept {
+    padding-top: 50px;
+    padding-left: 0!important;
+    margin-left: 12px;
+  }
+}
+
+/* DVGA iPhone
+---------------------------------------------------------------------- */
+
+@media only screen and (max-width: 640px) {
+  .header-top-bar {
+    height: 70px;
+    padding-bottom: 10px;
+    text-align: center!important;
+  }
+
+  .top-left {
+    float: none;
+    text-align: center;
+  }
+
+  .top-right {
+    float: none;
+  }
+
+  /* --- Middle Bar --- */
+  .header-middle-bar {
+    height: 90px;
+  }
+
+  .form-search {
+    margin-top: 0!important;
+  }
+
+  .stylish-input-group .form-control {
+    border-bottom: 1px solid #cccccc!important;
+  }
+
+  .stylish-input-group .input-group-addon {
+    border-bottom: 1px solid #cccccc!important;
+  }
+
+  .wish-list {
+    float: none;
+    text-align: center!important;
+    border: 0!important;
+  }
+
+  .wish-list ul li {
+    display: inline;
+    float: none!important;
+    text-align: center;
+    padding-top: 10px!important;
+    height: 25px;
+  }
+
+  /* Carousel */
+  .promo-side-img {
+    padding-top: 15px!important;
+  }
+
+  /* Slider-Promo */
+  .slider-promo-1, .slider-promo-2, .slider-promo-3  {
+    border: none!important;
+  }
+
+  /* Featured Product */
+  .featured-product {
+    padding-bottom: 60px;
+  }
+
+  /* Newsletter */
+  .sign-up-to-newsletter span {
+    top: -22px;
+  }
+
+  .control {
+    float: none;
+    width: 200px;
+    padding-bottom: 10px!important;
+  }
+
+  .sign-up-to-newsletter {
+    border-right: 0!important;
+  }
+
+  .payment-accept {
+    padding-top: 50px;
+    padding-left: 0!important;
+    margin-left: 12px;
+  }
+}
+
+
+/* Medium Screen Mobile
+  -------------------------------------------------------------------------- */
+
+@media only screen and (max-width: 480px) {
+  .header-top-bar {
+    height: 70px;
+    padding-bottom: 10px;
+    text-align: center!important;
+  }
+
+  .top-left {
+    float: none;
+    text-align: center;
+  }
+
+  .top-right {
+    float: none;
+  }
+
+  /* --- Middle Bar --- */
+  .header-middle-bar {
+    height: 90px;
+  }
+
+  .form-search {
+    margin-top: 0!important;
+  }
+
+  .stylish-input-group .form-control {
+    border-bottom: 1px solid #cccccc!important;
+  }
+
+  .stylish-input-group .input-group-addon {
+    border-bottom: 1px solid #cccccc!important;
+  }
+
+  .wish-list {
+    float: none;
+    text-align: center!important;
+    border: 0!important;
+  }
+
+  .wish-list ul li {
+    display: inline;
+    float: none!important;
+    text-align: center;
+    padding-top: 10px!important;
+    height: 25px;
+  }
+
+  /* Carousel */
+  .promo-side-img {
+    padding-top: 15px!important;
+  }
+
+  /* Slider-Promo */
+  .slider-promo-1, .slider-promo-2, .slider-promo-3  {
+    border: none!important;
+  }
+
+  /* Featured Product */
+  .featured-product {
+    padding-bottom: 60px;
+  }
+
+  /* Newsletter */
+  .sign-up-to-newsletter span {
+    top: -22px;
+  }
+
+  .control {
+    float: none;
+    width: 200px;
+    padding-bottom: 10px!important;
+  }
+
+  .sign-up-to-newsletter {
+    border-right: 0!important;
+  }
+
+  .payment-accept {
+    padding-top: 50px;
+    padding-left: 0!important;
+    margin-left: 12px;
+  }
+}
+
+
+/* Small Screen Mobile
+  -------------------------------------------------------------------------- */
+
+@media only screen and (max-width: 320px) {
+  .header-top-bar {
+    height: 70px;
+    padding-bottom: 10px;
+    text-align: center!important;
+  }
+
+  .top-left {
+    float: none;
+    text-align: center;
+  }
+
+  .top-right {
+    float: none;
+  }
+
+  /* Carousel */
+  .promo-side-img {
+    padding-top: 15px!important;
+  }
+
+  /* Slider-Promo */
+  .slider-promo-1, .slider-promo-2, .slider-promo-3  {
+    border: none!important;
+  }
+
+
+  /* --- Middle Bar --- */
+  .header-middle-bar {
+    height: 90px;
+  }
+
+  .form-search {
+    margin-top: -7px!important;
+  }
+
+  .stylish-input-group .form-control {
+    border-bottom: 1px solid #cccccc!important;
+  }
+
+  .stylish-input-group .input-group-addon {
+    border-bottom: 1px solid #cccccc!important;
+  }
+
+  .wish-list {
+    float: none;
+    text-align: center!important;
+    border: 0!important;
+  }
+
+  .wish-list ul li {
+    display: inline;
+    float: none!important;
+    text-align: center;
+    padding-top: 10px!important;
+    height: 25px;
+  }
+
+  /* Carousel */
+  .promo-side-img {
+    padding-top: 15px;
+  }
+
+  /* Slider-Promo */
+  .slider-promo-1, .slider-promo-2, .slider-promo-3  {
+    border: none!important;
+  }
+
+  /* Featured Product */
+  .featured-product {
+    padding-bottom: 50px;
+  }
+
+  /* Newsletter */
+  .sign-up-to-newsletter span {
+    top: -22px;
+  }
+
+  .control {
+    float: none;
+    width: 200px;
+    padding-bottom: 10px!important;
+  }
+
+  .sign-up-to-newsletter {
+    border-right: 0!important;
+  }
+
+  .payment-accept {
+    padding-top: 50px;
+    padding-left: 0!important;
+    margin-left: 20px;
+  }
+}
+
+
+/* only for webkit  browsers */
+/* to resolve flickering issue on chrome/safari for fixed background attachment */
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  
+}
