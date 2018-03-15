@@ -1,6 +1,12 @@
 $( document ).ready(function() {
     "use strict";
 
+    //For Navigation Hover
+    $(".nav a").hover(function(){
+        $(".nav").find(".active").removeClass("active");
+        $(this).parent().addClass("active");
+    });
+
     // For On hover mega menu show
     var navbarToggle = '.navbar-toggle';
     $('.dropdown, .dropup').each(function() {
@@ -18,9 +24,27 @@ $( document ).ready(function() {
     });
 
     // For Carosel
-    $('.carousel').carousel({
+    $('#eShopCarousel.carousel').carousel({
         interval: 2000
-    })
+    });
+
+    $('a[data-slide="prev"]').click(function() {
+        $('#eShopCarousel').carousel('prev');
+    });
+
+    $('a[data-slide="next"]').click(function() {
+        $('#eShopCarousel').carousel('next');
+    });
+
+    // For TAB
+    // initialize tab function
+    $('.nav-tabs a').click(function(e) {
+        e.preventDefault();
+        $(this).tab('show');
+    });
+
+    // Wow animation
+    new WOW().init();
 
     // For owlCarousel
     $(".product-wrapper").owlCarousel({
@@ -49,10 +73,26 @@ $( document ).ready(function() {
     });
 
     // For Back to Top
-    scroller.init();
+    //--------Scroll Top---------
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 200) {
+            $('.scroll_top').fadeIn();
+            $('.scroll_top').removeClass('not_visible');
+        } else {
+            $('.scroll_top').fadeOut();
+        }
+    });
+    $('.scroll_top').on('click', function (event) {
+        event.preventDefault();
+        $('html, body').animate({
+            scrollTop: 0
+        }, 500);
+    });
+
+    // For Preloader
+    $(window).load(function() {
+        $(".loader").fadeOut(), jQuery("#preloader").delay(450).fadeOut("slow"), jQuery("body").delay(450)
+    });
 });
 
-// For Preloader
-jQuery(window).load(function() {
-    jQuery(".loader").fadeOut(), jQuery("#preloader").delay(450).fadeOut("slow"), jQuery("body").delay(450)
-});
+
